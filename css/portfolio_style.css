@@ -1,0 +1,166 @@
+body {
+  font-family: Raleway,serif;
+	background: #EEE;
+}
+.navbar-default{
+	background-color: #1e2133;
+	margin-bottom: 0;
+	box-shadow: 0px 3px 3px #1e2133;
+}
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	background-color: white;
+	color: #1e2133;
+	font-weight: bold;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: white;
+	color: black;
+}
+.custom-brand {
+	color: white !important;
+	font-family: Raleway,serif;
+  font-weight: 900;
+	font-size: 22px;
+	letter-spacing: 0.05em;
+}
+#about {
+	padding: 40px;
+	color: #828282;
+	background: white;
+}
+#about p{
+  font-family: 'Raleway';
+	font-size: 20px;
+	/*padding-top: 40px;*/
+	line-height: 1.5em;
+	text-indent: 100px;
+}
+
+#about p:first-letter {
+	text-transform: capitalize;
+	font-size: 30px;
+}
+#about img {
+	max-height: 250px;
+}
+
+@media (max-width: 767px) {
+	#about p {
+		font-size: 17px;
+	}
+}
+
+#portfolio {
+	background: #1e2133;
+	color: white;
+	font-family: Raleway,cursive;
+}
+
+#portfolio img {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	max-height: 200px;
+
+}
+.portfolio-text {
+  color: gold;
+}
+#hireme {
+	color:white;
+	padding: 70px;
+	background: #0BAF85;
+}
+.soc {
+  display: block;
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+  padding: 48px;
+  padding: 4.8rem;
+  text-align: center;
+}
+.soc li {
+  display: inline-block;
+  margin: 12px;
+  margin: 1.2rem;
+}
+.soc a, .soc svg {
+  display: block;
+}
+.soc a {
+  position: relative;
+  height: 96px;
+  height: 9.6rem;
+  width: 96px;
+  width: 9.6rem;
+}
+.soc svg {
+  height: 100%;
+  width: 100%;
+}
+.soc em {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: -0.75em;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+footer ul > li > a:hover {
+  border-radius: 100%;
+  color: #0e1a25;
+  fill: #0e1a25;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+
+.facebook {
+  color: #3B5998;
+  fill: #3B5998;
+}
+.facebook:hover {
+  background: #3B5998;
+}
+
+.github {
+  color: #26d991;
+  fill: #26d991;
+}
+.github:hover {
+  background: #26d991;
+}
+
+.stackoverflow {
+  color: #F48024;
+  fill: #F48024;
+}
+.stackoverflow:hover {
+  background: #F48024;
+}
+
+
+.twitter {
+  color: #6CADDE;
+  fill: #6CADDE;
+}
+.twitter:hover {
+  background: #6CADDE;
+}
+.footer-first{
+	background: #0e1a25;
+}
+.footer-last {
+	color: white;
+	background: black;
+}
