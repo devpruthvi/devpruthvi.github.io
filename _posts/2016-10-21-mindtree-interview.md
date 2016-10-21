@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## My MindTree Interview Experience on 20th Oct 2016
 
