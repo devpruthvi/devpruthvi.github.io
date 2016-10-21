@@ -1,10 +1,12 @@
 ---
 layout: post
-category : lessons
-tagline: collection comprehensions and other stuff
+title: "MindTree Interview"
+category : academics
+tagline: My MindTree Interview experience on 20th Oct 2016
+tags: ["academics","mindtree","interview"]
 ---
 {% include JB/setup %}
-## My MindTree Interview Experience on 20th Oct 2016
+## MindTree Interview
 
 ### **Written test at SRIT:**
 
